@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="lightblue">
+    <h1>FORMS</h1>
+    <form action="data.html" method="get" target="_blank">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" placeholder="Enter Your First Name" required>
+        <br>
+        <br>
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" placeholder="Enter Your Last Name" required>
+        <br>
+        <br>
+        <label for="mmiddle name">Middle Name</label>
+        <input type="text" id="middlename" placeholder="Enter Your Middle Name">
+        <br>
+        <br>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter Your Email Adress" required>
+        <br>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter Your Password" required>
+        <br>
+        <br>
+        <label>Language
+        <br>
+        <br>
+        <input type="radio" name="Language" value="React"  required>React
+        <br>
+        <input type="radio" name="Language" value="Angular" required>Angular
+        <br>
+        <input type="radio" name="Language" value="Vue" required>Vue
+        </label>
+        <br>
+        <br>
+        <label>Course</label>
+        <br>
+        <br>
+        <input type="checkbox" name="Course" value="Mern" >MERN 
+        <br>
+        <input type="checkbox" name="Course" value="MEAN" >MEAN 
+        <br>
+        <input type="checkbox" name="Course" value="MEVN" >MEVN
+        <br>
+        <br>
+        <label>Field</label>
+        <br>
+        <select name="Field" required>
+            <option value="Frontend">Frontend</option>
+            <option value="Backend">Backend</option>
+            <option value="Full Stack">Full Stack</option>
+        </select>
+        <br>
+        <br>
+        <textarea name="Bio" rows="8" cols="35" placeholder="Enter Your Bio"></textarea>
+        <br>
+        <br>
+        <label for="number">Phone Number</label>
+        <input type="tel" id="number" >
+        <br>
+        <br>
+        <center>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </center>
+    <center>
+    <button type="button"><a href="table.html">Table</a></button>
+    </center>
+    </form>
+</body>
+</html>
